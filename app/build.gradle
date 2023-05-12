@@ -42,6 +42,10 @@ dependencies {
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation 'com.google.firebase:firebase-auth'
 
+    // Add the dependency for the Cloud Storage library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-storage'
+
     implementation 'com.android.support:support-annotations:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
     //noinspection GradleCompatible
