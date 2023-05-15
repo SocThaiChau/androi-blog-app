@@ -111,7 +111,7 @@ public class RegisterActivity extends AppCompatActivity {
                         // user account created successfully
                         showMessage("Account created");
                         // after we created user account we need to update his profile picture and name
-                        //updateUserInfo( name ,pickedImgUri,mAuth.getCurrentUser());
+                        updateUserInfo( name ,pickedImgUri,mAuth.getCurrentUser());
                         updateUI();
                     }
                     else
