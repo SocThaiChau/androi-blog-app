@@ -17,6 +17,9 @@
         tools:replace="android:appComponentFactory"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.PostDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.Home"
             android:exported="false"
             android:label="@string/title_activity_home"
